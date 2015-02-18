@@ -1,0 +1,10 @@
+/*Styles*/
+body {
+  background: url(../img/pattern.png); }
+
+.container {
+  width: 100%; }
+  .container .col-md-12 {
+    margin: 50px 0 50px 0; }
+
+/*# sourceMappingURL=style.css.map */

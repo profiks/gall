@@ -1,0 +1,12 @@
+/*Styles*/
+body {
+  background: #000; }
+
+.container {
+  width: 100%; }
+  .container .col-md-2 {
+    margin: 20px 0 20px 0; }
+    .container .col-md-2 img {
+      outline: 1px solid white; }
+
+/*# sourceMappingURL=styles.css.map */

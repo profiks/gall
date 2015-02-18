@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AACA,IAAI;EACA,UAAU,EAAE,uBAAuB;;AAGvC,UAAU;EACN,KAAK,EAAE,IAAI;EACX,qBAAU;IACN,MAAM,EAAE,aAAa",
+"sources": ["integration.scss"],
+"names": [],
+"file": "style.css"
+}
