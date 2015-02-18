@@ -14,4 +14,9 @@ $(document).ready(function() {
 			}
 		}
 	});
+    
+    
+  // Include this somewhere after main fancybox scripts
+//$.fancybox.helpers.thumbs.onUpdate = function() {};  
+    
 });

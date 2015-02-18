@@ -78,7 +78,7 @@
 					}
 
 					//Calculate thumbnail width/height and center it
-					widthRatio  = width / thumbWidth;
+                    widthRatio  = width / thumbWidth;
 					heightRatio = height / thumbHeight;
 
 					parent = that.list.children().eq(i).find('a');
@@ -111,7 +111,7 @@
 			//Set initial width
 			this.width = this.list.children().eq(0).outerWidth(true);
 
-			this.list.width(this.width * (obj.group.length + 1)).css('left', Math.floor($(window).width() * 0.5 - (obj.index * this.width + this.width * 0.5)));
+			this.list.width(this.width * (obj.group.length + 1));
 		},
 
 		beforeLoad: function (opts, obj) {
@@ -141,11 +141,11 @@
 
 		//Center list
 		onUpdate: function (opts, obj) {
-			if (this.list) {
+			/*if (this.list) {
 				this.list.stop(true).animate({
 					'left': Math.floor($(window).width() * 0.5 - (obj.index * this.width + this.width * 0.5))
 				}, 150);
-			}
+			}*/
 		},
 
 		beforeClose: function () {
