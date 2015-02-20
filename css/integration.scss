@@ -1,6 +1,6 @@
 /*Styles*/
 body{
-    background: #fff;
+    background: #000;
     height: 100%; 
 }
 
@@ -9,7 +9,11 @@ body{
     .col-md-2{
         margin: 20px 0 20px 0;
         img{
-            outline: 1px solid white;
+            //outline: 1px solid white;
+            &:hover{
+                
+                outline: 1px solid #1CE5E8;
+            }
         }
     }
 }

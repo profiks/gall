@@ -57,7 +57,7 @@
 				list += '<li><a style="width:' + thumbWidth + 'px;height:' + thumbHeight + 'px;" href="javascript:jQuery.fancybox.jumpto(' + n + ');"></a></li>';
 			}
 
-			this.wrap = $('<div id="fancybox-thumbs" class="col-md-6 col-sm-6"></div>').addClass(opts.position).appendTo('body');
+			this.wrap = $('<div id="fancybox-thumbs" class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3 col-sm-offset-3"></div>').addClass(opts.position).appendTo('body');
 			this.list = $('<ul>' + list + '</ul>').appendTo(this.wrap);
 
 			//Load each thumbnail
@@ -134,6 +134,12 @@
 			} else {
 				this.init(opts, obj);
 			}
+            
+             $("#fancybox-thumbs").mCustomScrollbar({
+					theme:"light-thick",
+                    axis:"x",
+					advanced:{autoExpandHorizontalScroll:true}
+				});
 
 			//Set active element
 			this.list.children().removeClass('active').eq(obj.index).addClass('active');
