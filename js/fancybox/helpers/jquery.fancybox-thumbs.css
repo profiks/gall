@@ -1,15 +1,20 @@
 #fancybox-thumbs {
-    //display: block;
-	position: fixed;
-	left: 0;
-	width: 500px;
-    //height: 60px;
-    overflow-x: scroll;
-	z-index: 8050;
+	 position:fixed;
+    left:20px;
+        //margin:0px auto;
+            //width: 500px; 
+        //overflow: hidden; 
+	   z-index: 9599050;
+    
+  
 }
 
+
+
+
+
 #fancybox-thumbs.bottom {
-	bottom: 2px;
+	bottom: 50px;
 }
 
 #fancybox-thumbs.top {
@@ -25,7 +30,7 @@
 
 #fancybox-thumbs ul li {
 	float: left;
-	padding: 1px;
+	padding: 3px;
 	opacity: 0.5;
 }
 

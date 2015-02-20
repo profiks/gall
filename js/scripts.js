@@ -16,7 +16,28 @@ $(document).ready(function() {
 	});
     
     
-  // Include this somewhere after main fancybox scripts
-//$.fancybox.helpers.thumbs.onUpdate = function() {};  
+  
+ 
+  
+    
+    $(window).load(function(){
+				
+				
+				$("#accordion").mCustomScrollbar({
+					//setHeight:200,
+					theme:"dark-3",
+                    axis:"x",
+					//theme:"light-3",
+					advanced:{autoExpandHorizontalScroll:true}
+				});
+        
+				$("#fancybox-thumbs").mCustomScrollbar({
+					theme:"dark-3",
+                    axis:"x",
+					advanced:{autoExpandHorizontalScroll:true}
+				});
+        
+                
+			});
     
 });
